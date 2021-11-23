@@ -1,8 +1,7 @@
 const express = require("express");
 const logger = require("morgan");
 const mongoose = require("mongoose");
-const controllers = require("./controllers");
-const view = require("./controllers")
+
 const PORT = process.env.PORT || 3000;
 
 const app = express();
@@ -21,6 +20,7 @@ mongoose.connect("mongodb://localhost/workout", {
 });
 
 // app.use(controllers);
+app.use(require("./controllers/api.js"))
 app.use(require("./controllers/view.js"))
 
 app.listen(PORT, () => {
