@@ -30,7 +30,7 @@ Why wait for a new years resolution ? Get started today with your fitness goals.
  Add new exercises, update an existing exercise, delete any unwanted data. Keep track of duration of workouts. Tally up daily workout total.
 
   ## Deployed
-  Heroku :
+  Heroku : https://sleepy-caverns-26036.herokuapp.com/
   Github : https://sgfiles.github.io/Workout-Tracker/
  
   ## Email
